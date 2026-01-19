@@ -1,0 +1,42 @@
+# Patient Data (NEVER commit personal info)
+profiles/patient-*.md
+!profiles/profile-template.md
+
+# Personal Tracking
+tracking/my-*.md
+tracking/202*.md
+tracking/personal-*.md
+
+# Images with identifiable information
+images/profiles/*.jpg
+images/profiles/*.jpeg
+images/profiles/*.png
+images/profiles/*.gif
+!images/profiles/.gitkeep
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS specific
+Desktop.ini
